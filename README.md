@@ -1,32 +1,20 @@
 # Unlocker Telegram Bot
 
-Telegram bot for your group that:
+A simple Telegram bot that keeps your group **text-only**, and unlocks **photo/media** sending only for users who get enough **referrals**.
 
-- Lets **everyone text**
-- Unlocks **photo & media sending** only for users who get enough **referrals**
-- Uses **MongoDB** to store users & referrals
-- Has an **admin panel** for the owner
+Built with **Node.js**, **Telegraf**, **MongoDB**, and a tiny **Express** server for Koyeb health checks.
 
-## Features
+---
 
-- Referral system with unique links (`/ref`)
-- Required referrals (default: `3`, change with `/setrefs`)
-- `/unlock` in group unlocks media permissions for qualified users
-- Admin panel (`/admin`) with:
-  - Stats
-  - Broadcast to all users
-  - Change required referrals
-  - View `/start` message
+## ⚙️ Features
+- Referral system (`/ref`)
+- Unlock media in group (`/unlock`)
+- Admin panel (`/admin`)
+- Broadcast (`/broadcast`)
+- MongoDB storage
+- Tiny web server on port **3000** for Koyeb
 
-## Requirements
+---
 
-- Python 3.10+
-- MongoDB (local or Atlas)
-
-## Setup
-
-1. Clone this repo:
-
-   ```bash
-   git clone https://github.com/yourname/unlocker_69_bot.git
-   cd unlocker_69_bot
+## 🚀 Environment Variables
+Set these in your hosting platform:
