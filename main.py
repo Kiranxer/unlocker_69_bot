@@ -20,8 +20,8 @@ from motor.motor_asyncio import AsyncIOMotorClient
 
 # ⚠️ Set these as environment variables in production!
 BOT_TOKEN = os.getenv("BOT_TOKEN", "8425235782:AAFBr5g-3su_csO0ySlqH0VVIf_DT4lgdR0")
-MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017")
-DB_NAME = "unlocker_bot_db"
+MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://alyakiranxer:Kiranxer123@cluster0.zunxtbg.mongodb.net/?appName=Cluster0")
+DB_NAME = "Cluster0"
 
 OWNER_ID = 8264793035           # your Telegram user id
 GROUP_ID = -1003379258261       # your group id
