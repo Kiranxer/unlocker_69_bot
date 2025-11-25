@@ -19,7 +19,7 @@ from motor.motor_asyncio import AsyncIOMotorClient
 # =============== CONFIG ===============
 
 # ⚠️ Set these as environment variables in production!
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8425235782:AAEpD-94PfItociU4TqUNhg-bpJoj0a2Ah0")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8425235782:AAFBr5g-3su_csO0ySlqH0VVIf_DT4lgdR0")
 MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017")
 DB_NAME = "unlocker_bot_db"
 
